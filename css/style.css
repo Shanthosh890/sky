@@ -1,0 +1,59 @@
+.nav{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    font-size: 13px;
+}
+.drop img{
+    width: 19px;
+}
+.middle img{
+    width: 400px;
+}
+.middle video{
+    width: 400px;
+}
+.agrements{
+    width: 400px;
+}
+.agrements a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 10px 18px;
+    border-radius: 21px;
+    font-size: 20px;
+}
+@media(max-width:800px){
+    .nav{
+        width: 163px;
+    }
+    .middle img{
+        width: 163px;
+    }
+    .middle video{
+        width: 163px;
+    }
+    .agrements{
+        width: 163px;
+    }
+    .agrements h1{
+        font-size: 14px;
+        padding: 15px 2px;
+    }
+    .agrements p{
+        font-size: 10px;
+    }
+    .agrements a{
+        color: white;
+        text-decoration: none;
+        border: 1px solid blue;
+        background-color: blue;
+        padding: 10px 18px;
+        border-radius: 21px;
+        font-size: 20px;
+    }
+}
