@@ -1,7 +1,10 @@
+section{
+    width: 42%;
+    /* background-color: lightgray; */
+}
 .nav{
     background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
+    width: auto;
 }
 .nav h1{
     font-size: 13px;
@@ -27,13 +30,10 @@
     border-radius: 21px;
     font-size: 20px;
 }
-@media(max-width:700px){
-    body{
-        width: 800px;
-    }
+@media(max-width:500px){
+    
     .nav{
         width: 600px;
-        flex-basis: 80%;
     }
     .middle img{
         width: 600px;
