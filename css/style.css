@@ -29,17 +29,17 @@
 }
 @media(max-width:700px){
     .nav{
-        width: 700px;
+        width: 600px;
         flex-basis: 100%;
     }
     .middle img{
-        width: 700px;
+        width: 600px;
     }
     .middle video{
-        width: 700px;
+        width: 600px;
     }
     .agrements{
-        width: 700px;
+        width: 600px;
     }
     .agrements h1{
         font-size: 14px;
