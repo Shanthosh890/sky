@@ -27,7 +27,7 @@
     border-radius: 21px;
     font-size: 20px;
 }
-@media(max-width:900px){
+@media(max-width:700px){
     .nav{
         width: 700px;
         flex-basis: 100%;
